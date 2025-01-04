@@ -27,7 +27,7 @@ class Secure_Bank_Account(Bank_Account):
         print(f"User Name: {self.user_name}")
         print(f"Current Balance: {self.user_balance}")
 
-account = Secure_Bank_Account("Yug", "Password")
+account = Secure_Bank_Account()
 max_attempts = int(input("Enter attempts : "))
 attempts = 0
 
